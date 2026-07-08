@@ -1,0 +1,31 @@
+POST localhost:5000/tarefas
+Content-Type: application/json
+
+{
+  "titulo": "Inserindo primeira tarefa",
+  "descricao": "Tarefa sendo inserida no banco",
+  "concluida": true
+}
+
+###
+DELETE localhost:5000/tarefas/3
+
+
+###
+POST http://localhost:5000/alunos
+Content-Type: application/json
+
+{
+  "nome": "Rafaela",
+  "email": "rafaela@email.com",
+  "idade": 21
+}
+
+###
+GET http://localhost:5000/alunos
+
+###
+GET http://localhost:5000/alunos/1
+
+###
+DELETE http://localhost:5000/alunos/1
