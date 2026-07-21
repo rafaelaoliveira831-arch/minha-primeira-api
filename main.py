@@ -286,7 +286,7 @@ def deletar_aluno(id_aluno):
 
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host="0.0.0.0", port=5000, debug=True)
 
 #Criar a classe Alunos no models.py. Depois:
 # - criar rotas GET para alunos
